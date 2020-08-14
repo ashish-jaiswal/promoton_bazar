@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +14,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
+    
+    <div id="particle-canvas"></div>    
+
+    <div id="wrapper">
+
+    
     <header id="header">
-       <div class="container-fluid">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo">
@@ -35,44 +43,50 @@
                     </div>
                 </div>
             </div>
-       </div> 
+        </div>
+        
+
+        
+
     </header>
-    
+
     <section id="banner">
-        <div class="pk">
+        <!-- <div id="particle-canvas"></div> -->
+        <!-- <div class="pk">
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
-        </div>
-        <div class="earth-img">
-            <!-- <img src="images/banner.png" alt=""> -->
+        </div> -->
+        <!-- <div class="earth-img">
+            <img src="images/banner.png" alt="">
             <video autoplay loop poster="images/BG1.jpeg" width="100%" height="100%" muted="muted">
                 <source src="earth-video.mp4" type="video/mp4">
                 <source src="earth-video.ogg" type="video/ogg">
-              </video>
-              
-        </div>
+            </video>
+        </div> -->
         <div class="container">
             <div class="banner">
                 <div class="earth-img">
-                    <!-- <img src="images/banner.png" alt=""> -->
+                    <img src="images/banner.png" alt="">
                 </div>
                 <div class="banner-text">
                     <div class="title-earth">
-                        PROMOTION BAZAR    
+                        PROMOTION BAZAR
                     </div>
                     <div class="banner-about">
                         <h2>Lorem Ipsum</h2>
-                        <p>Many of life's faliures are people who did not realize how close they were to success when they gave up</p>
+                        <p>Many of life's faliures are people who did not realize how close they were to success when
+                            they gave up</p>
                         <a href="#numbers-speak" class="btn" id="learn-more"> Learn More </a>
                     </div>
                 </div>
             </div>
-        </div> 
-        
+        </div>
+
     </section>
 
-    <section id="numbers-speak"> 
+    <section id="numbers-speak">
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -85,31 +99,35 @@
                 <div class="col-md-3">
                     <div class="speak-box">
                         <h3> TECHNOLOGY </h3>
-                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</P>
+                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</P>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="speak-box">
                         <h3> MARKETING </h3>
-                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</P>
+                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</P>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="speak-box">
                         <h3> INSIGHT </h3>
-                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</P>
+                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</P>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="speak-box">
                         <h3> INNOVATION </h3>
-                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</P>
+                        <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy.</P>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="projects"> 
+    <section id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -122,15 +140,40 @@
             <div class="row">
                 <div class="col-md-11">
                     <div class="slider slider-nav">
-                        <div class="projects-list"> <img src="images/project1.png" alt=""> <div class="project-text"> <h4> GALLERY </h4> <h2>LOREM IPSUM</h2> </div> </div>
-                        <div class="projects-list"> <img src="images/smart-builers.png" alt=""> <div class="project-text"> <h4> SAMRT BULDERS </h4> <h2>LOREM IPSUM</h2> </div></div>
-                        <div class="projects-list"> <img src="images/deep-tech.png" alt=""> <div class="project-text"> <h4> DEEP TECH </h4> <h2>LOREM IPSUM</h2> </div></div>
-                        <div class="projects-list"> <img src="images/project1.png" alt=""> <div class="project-text"> <h4> GALLERY </h4> <h2>LOREM IPSUM</h2> </div></div>
-                        <div class="projects-list"> <img src="images/deep-tech.png" alt=""> <div class="project-text"> <h4> SMART BULDERS </h4> <h2>LOREM IPSUM</h2> </div></div>
+                        <div class="projects-list"> <img src="images/project1.png" alt="">
+                            <div class="project-text">
+                                <h4> GALLERY </h4>
+                                <h2>LOREM IPSUM</h2>
+                            </div>
+                        </div>
+                        <div class="projects-list"> <img src="images/smart-builers.png" alt="">
+                            <div class="project-text">
+                                <h4> SAMRT BULDERS </h4>
+                                <h2>LOREM IPSUM</h2>
+                            </div>
+                        </div>
+                        <div class="projects-list"> <img src="images/deep-tech.png" alt="">
+                            <div class="project-text">
+                                <h4> DEEP TECH </h4>
+                                <h2>LOREM IPSUM</h2>
+                            </div>
+                        </div>
+                        <div class="projects-list"> <img src="images/project1.png" alt="">
+                            <div class="project-text">
+                                <h4> GALLERY </h4>
+                                <h2>LOREM IPSUM</h2>
+                            </div>
+                        </div>
+                        <div class="projects-list"> <img src="images/deep-tech.png" alt="">
+                            <div class="project-text">
+                                <h4> SMART BULDERS </h4>
+                                <h2>LOREM IPSUM</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-      
+
         </div>
     </section>
 
@@ -144,11 +187,11 @@
                     </div>
                     <div class="text-about">
                         <h3>About <span>About Us</span></h3>
-                        
+
                         <div class="social-media">
                             <ul>
                                 <li> <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                                </a> </li>
+                                    </a> </li>
                                 <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
                                 <li> <a href="#"> <i class="fa fa-instagram"></i> </a> </li>
                             </ul>
@@ -158,80 +201,88 @@
 
                 <div class="about-contents">
                     <h2> 360 degree online advertising </h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book, orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book, orem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="our_team">
         <div class="container">
-          <div class="team_tittle">
-            <h2>Our Team</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="team_info">
-                  <div class="soc">
-                    <span class="founder_name">Founder & Ceo</span>
-                    <ul>
-                      <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                  <div class="team_img">
-                    <img src="images/team1.png" class="responsive"/>
-                  </div>
-                  <div class="team_cnt">
-                    <h3>Gaurav Negi</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text of the printing and typesetting</p>
-                  </div>
-              </div>
+            <div class="team_tittle">
+                <h2>Our Team</h2>
             </div>
-            <div class="col-md-4">
-              <div class="team_info">
-                  <div class="soc">
-                    <span class="founder_name">Founder</span>
-                    <ul>
-                      <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                  <div class="team_img">
-                    <img src="images/team2.png" class="responsive"/>
-                  </div>
-                  <div class="team_cnt">
-                    <h3>Sumiet Sharma</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text of the printing and typesetting</p>
-                  </div>
-              </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team_info">
+                        <div class="soc">
+                            <span class="founder_name">Founder & Ceo</span>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team_img">
+                            <img src="images/team1.png" class="responsive" />
+                        </div>
+                        <div class="team_cnt">
+                            <h3>Gaurav Negi</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's text of the printing and typesetting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team_info">
+                        <div class="soc">
+                            <span class="founder_name">Founder</span>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team_img">
+                            <img src="images/team2.png" class="responsive" />
+                        </div>
+                        <div class="team_cnt">
+                            <h3>Sumiet Sharma</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's text of the printing and typesetting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team_info">
+                        <div class="soc">
+                            <span class="founder_name">Founder 2</span>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team_img">
+                            <img src="images/team3.png" class="responsive" />
+                        </div>
+                        <div class="team_cnt">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's text of the printing and typesetting</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-              <div class="team_info">
-                  <div class="soc">
-                    <span class="founder_name">Founder 2</span>
-                    <ul>
-                      <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                  <div class="team_img">
-                    <img src="images/team3.png" class="responsive"/>
-                  </div>
-                  <div class="team_cnt">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text of the printing and typesetting</p>
-                  </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
     <section id="partners">
         <div class="container">
             <div class="row">
@@ -251,7 +302,7 @@
                         <div class="projects-list"> <a href="#"><img src="images/client05.png" alt=""></a> </div>
                         <div class="projects-list"> <a href="#"><img src="images/client06.png" alt=""></a> </div>
                         <div class="projects-list"> <a href="#"><img src="images/client04.png" alt=""></a> </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -260,7 +311,7 @@
 
     <section class="our_people">
         <div class="container">
-            <div class="people_banner"> 
+            <div class="people_banner">
                 <img src="images/people-banner.jpeg" alt="" class="responsive" />
                 <div class="people_cnt">
                     <div class="people_heading">
@@ -276,19 +327,20 @@
         <div class="container">
             <div class="request_main">
                 <div class="request_left">
-                     
+
                     <div class="request_text">
-                        <h2>Request a list of headings</h2> 
-                        <p>Please enter your email address to receive course titles, the topics will be emailed to you.</p>
+                        <h2>Request a list of headings</h2>
+                        <p>Please enter your email address to receive course titles, the topics will be emailed to you.
+                        </p>
                         <div class="mail_inp">
-                            <input type="email" placeholder="info@email.com" class="form-control" >
+                            <input type="email" placeholder="info@email.com" class="form-control">
                             <button class="send_btn"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <!-- <div class="send_successfully">
                         <p><i class="fa fa-check" aria-hidden="true"></i> Your email has been successfully registered, headlines will be sent to soon.</p>
                     </div> -->
-                     
+
                 </div>
                 <div class="request_right">
                     <div class="email_img text-center">
@@ -298,15 +350,15 @@
             </div>
         </div>
     </section>
-
-      <footer class="footer">   
+    <footer class="footer">
         <div class="container">
             <div class="footer-info">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="footer_cnt">
                             <img src="images/logo_footer.png" alt="Logo" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's</p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -337,7 +389,7 @@
                                 <h3>Get in touch</h3>
                                 <ul>
                                     <li><span>Mail : </span><a href="#">info@anvizo.con</a></li>
-                                    <li><span>Phone : </span><a href="#">+919555022729</a></li>    
+                                    <li><span>Phone : </span><a href="#">+919555022729</a></li>
                                     <li>location : New Ashok Nagar new Delhi 110096</li>
                                 </ul>
                             </div>
@@ -356,14 +408,15 @@
                 <p>Copyright @ Promotion Bazaar</p>
             </div>
         </div>
-    </footer>  
+    </footer>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- <script src="js/custom.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script>
-        $(document).on('ready', function() {
+        $(document).on('ready', function () {
             $('.slider-nav').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -378,25 +431,45 @@
                 dots: true,
                 focusOnSelect: true
             });
-            
+
         });
     </script>
     <script>
         var vid = document.getElementById("myVideo");
-        function enableAutoplay() { 
-          vid.autoplay = true;
-          vid.load();
+        function enableAutoplay() {
+            vid.autoplay = true;
+            vid.load();
         }
-        
-        function disableAutoplay() { 
-          vid.autoplay = false;
-          vid.load();
+
+        function disableAutoplay() {
+            vid.autoplay = false;
+            vid.load();
+        }
+
+        function checkAutoplay() {
+            alert(vid.autoplay);
         } 
-        
-        function checkAutoplay() { 
-          alert(vid.autoplay);
-        } 
-        </script> 
-    
+    </script>
+
+    <script>
+        // particle.min.js hosted on GitHub
+        // Scroll down for initialisation code
+
+        !function (a) { var b = "object" == typeof self && self.self === self && self || "object" == typeof global && global.global === global && global; "function" == typeof define && define.amd ? define(["exports"], function (c) { b.ParticleNetwork = a(b, c) }) : "object" == typeof module && module.exports ? module.exports = a(b, {}) : b.ParticleNetwork = a(b, {}) }(function (a, b) { var c = function (a) { this.canvas = a.canvas, this.g = a.g, this.particleColor = a.options.particleColor, this.x = Math.random() * this.canvas.width, this.y = Math.random() * this.canvas.height, this.velocity = { x: (Math.random() - .5) * a.options.velocity, y: (Math.random() - .5) * a.options.velocity } }; return c.prototype.update = function () { (this.x > this.canvas.width + 20 || this.x < -20) && (this.velocity.x = -this.velocity.x), (this.y > this.canvas.height + 20 || this.y < -20) && (this.velocity.y = -this.velocity.y), this.x += this.velocity.x, this.y += this.velocity.y }, c.prototype.h = function () { this.g.beginPath(), this.g.fillStyle = this.particleColor, this.g.globalAlpha = .7, this.g.arc(this.x, this.y, 1.5, 0, 2 * Math.PI), this.g.fill() }, b = function (a, b) { this.i = a, this.i.size = { width: this.i.offsetWidth, height: this.i.offsetHeight }, b = void 0 !== b ? b : {}, this.options = { particleColor: void 0 !== b.particleColor ? b.particleColor : "#fff", background: void 0 !== b.background ? b.background : "#1a252f", interactive: void 0 !== b.interactive ? b.interactive : !0, velocity: this.setVelocity(b.speed), density: this.j(b.density) }, this.init() }, b.prototype.init = function () { if (this.k = document.createElement("div"), this.i.appendChild(this.k), this.l(this.k, { position: "absolute", top: 0, left: 0, bottom: 0, right: 0, "z-index": 1 }), /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(this.options.background)) this.l(this.k, { background: this.options.background }); else { if (!/\.(gif|jpg|jpeg|tiff|png)$/i.test(this.options.background)) return console.error("Please specify a valid background image or hexadecimal color"), !1; this.l(this.k, { background: 'url("' + this.options.background + '") no-repeat center', "background-size": "cover" }) } if (!/(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(this.options.particleColor)) return console.error("Please specify a valid particleColor hexadecimal color"), !1; this.canvas = document.createElement("canvas"), this.i.appendChild(this.canvas), this.g = this.canvas.getContext("2d"), this.canvas.width = this.i.size.width, this.canvas.height = this.i.size.height, this.l(this.i, { position: "relative" }), this.l(this.canvas, { "z-index": "20", position: "relative" }), window.addEventListener("resize", function () { return this.i.offsetWidth === this.i.size.width && this.i.offsetHeight === this.i.size.height ? !1 : (this.canvas.width = this.i.size.width = this.i.offsetWidth, this.canvas.height = this.i.size.height = this.i.offsetHeight, clearTimeout(this.m), void (this.m = setTimeout(function () { this.o = []; for (var a = 0; a < this.canvas.width * this.canvas.height / this.options.density; a++)this.o.push(new c(this)); this.options.interactive && this.o.push(this.p), requestAnimationFrame(this.update.bind(this)) }.bind(this), 500))) }.bind(this)), this.o = []; for (var a = 0; a < this.canvas.width * this.canvas.height / this.options.density; a++)this.o.push(new c(this)); this.options.interactive && (this.p = new c(this), this.p.velocity = { x: 0, y: 0 }, this.o.push(this.p), this.canvas.addEventListener("mousemove", function (a) { this.p.x = a.clientX - this.canvas.offsetLeft, this.p.y = a.clientY - this.canvas.offsetTop }.bind(this)), this.canvas.addEventListener("mouseup", function (a) { this.p.velocity = { x: (Math.random() - .5) * this.options.velocity, y: (Math.random() - .5) * this.options.velocity }, this.p = new c(this), this.p.velocity = { x: 0, y: 0 }, this.o.push(this.p) }.bind(this))), requestAnimationFrame(this.update.bind(this)) }, b.prototype.update = function () { this.g.clearRect(0, 0, this.canvas.width, this.canvas.height), this.g.globalAlpha = 1; for (var a = 0; a < this.o.length; a++) { this.o[a].update(), this.o[a].h(); for (var b = this.o.length - 1; b > a; b--) { var c = Math.sqrt(Math.pow(this.o[a].x - this.o[b].x, 2) + Math.pow(this.o[a].y - this.o[b].y, 2)); c > 120 || (this.g.beginPath(), this.g.strokeStyle = this.options.particleColor, this.g.globalAlpha = (120 - c) / 120, this.g.lineWidth = .7, this.g.moveTo(this.o[a].x, this.o[a].y), this.g.lineTo(this.o[b].x, this.o[b].y), this.g.stroke()) } } 0 !== this.options.velocity && requestAnimationFrame(this.update.bind(this)) }, b.prototype.setVelocity = function (a) { return "fast" === a ? 1 : "slow" === a ? .33 : "none" === a ? 0 : .66 }, b.prototype.j = function (a) { return "high" === a ? 5e3 : "low" === a ? 2e4 : isNaN(parseInt(a, 10)) ? 1e4 : a }, b.prototype.l = function (a, b) { for (var c in b) a.style[c] = b[c] }, b });
+
+        // Initialisation
+
+        var canvasDiv = document.getElementById('particle-canvas');
+        var options = {
+            particleColor: '#888',
+            // background: '../images/promotion_bazar_bg.jpg',
+            // height:5000,
+            interactive: true,
+            speed: 'medium',
+            density: 'high'
+        };
+        var particleCanvas = new ParticleNetwork(canvasDiv, options);
+    </script>
 </body>
+
 </html>
