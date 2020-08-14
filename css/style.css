@@ -75,12 +75,10 @@ section{
   z-index: 9;
 }
 .banner-about {
-    text-align: center;
+    text-align: left;
     color: white;
-    margin-top: 90px;
-    max-width: 550px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 70px;
+    max-width: 400px;
 }
 .banner-about h2{
     font-weight: bold;
@@ -134,7 +132,7 @@ section{
     
 }
 section#numbers-speak{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .speak-box:hover {
     background: #0278ff;
@@ -309,7 +307,7 @@ section#about {
 }
 .text-about h3 {
   font-size: 80px;
-  color: rgb(63 81 181 / 25%);
+  color: rgb(63 81 181 / 55%);
   font-weight: bold;
   margin: 0;
   position: relative;
