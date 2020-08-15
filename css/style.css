@@ -30,16 +30,17 @@ section{
 }
 
 #header{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: inline-block;
     width: 100%;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
+    padding: 30px 0;
 }
 .menu{
-    margin-top: 35px;
+    margin-top: 22px;
     display: inline-block;
     width: auto;
     padding-right: 35px;
@@ -48,13 +49,13 @@ section{
     display: inline-block;
     width: auto;
     list-style: none;
-    margin: 0 10px;
-    font-size: 14px;
-}
-
-.menu ul li a{
+    margin: 0 20px;
+  }
+  
+  .menu ul li a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
 
 }
 
@@ -279,7 +280,7 @@ section#numbers-speak{
 
 section#about {
   /* background: #010007; */
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .abouts {
@@ -346,6 +347,7 @@ section#about {
   display: inline-block;
   width: 100%;
   margin-top: 40px;
+  margin-bottom: 10px;
 }
 .about-contents h2 {
   font-size: 24px;
@@ -555,6 +557,8 @@ button.send_btn {
 }
 .footer_cnt p {
   padding-top: 15px;
+  line-height: 24px;
+  font-size: 14px;
 }
 .responsive{
   width: 100%;
@@ -700,7 +704,7 @@ span.founder_name {
 .slick-initialized .slick-slide{
   position: relative;
 }
-.slick-initialized .slick-slide:before {
+.slider-nav .slick-initialized .slick-slide:before {
   content: "";
   position: absolute;
   top: 0;
@@ -741,3 +745,303 @@ span.founder_name {
   text-align: center;
   z-index: 22;
 } */
+
+.slick-active button::before{
+  font-size: 14px !important;
+}
+
+
+.logo {
+  padding: 0 25px;
+}
+
+
+/* START ABOUT US PAGE CSS */
+.about_pg {
+  margin-top: 200px;
+}
+
+.trusts {
+  /* background: #010007; */
+  width: 100%;
+  display: inline-block;
+  padding: 55px 0;
+  margin-top: 150px;
+}
+.trusts_cnt h2 {
+  margin: 0;
+  font-size: 35px;
+}
+.trusts_cnt p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.trusts_logos ul {
+  padding: 0;
+  margin: 0;
+}
+.trusts_logos ul li{
+  list-style: none;
+  display: inline-block;
+}
+.trusts_logos ul li a img {
+  max-width: 150px;
+}
+.trusts_logos ul li {
+  list-style: none;
+  display: inline-block;
+  width: 16.4%;
+  padding: 10px 10px;
+}
+.trusts_logos {
+  padding: 40px 0;
+}
+
+.knowledge_cnt h2 {
+  margin: 0;
+  font-size: 35px;
+}
+.knowledge_cnt p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.slider-knowledge {
+    text-align: center;
+    padding: 70px 50px;
+    background: #19133e;
+    border-radius: 4px;
+}
+.knowledge-list p {
+  padding: 20px 0;
+  text-align: justify;
+  line-height: 26px;
+  text-align-last: center;
+}
+.knowledge_cnt {
+  margin-bottom: 50px;
+}
+.knowledge-list img {
+  width: 200px;
+  margin: auto;
+}
+.slider-knowledge button.slick-arrow {
+  border: solid 1px #ffffff;
+  border-radius: 3px;
+  padding: 10px 20px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 116px;
+  right: 0;
+  left: 0;
+  z-index: 2222;
+  margin: auto;
+  margin-right: 106px;
+}
+.slider-knowledge button.slick-arrow::before {
+  font-family: FontAwesome;
+  font-size: 15px;
+  color: #fff;
+}
+.slider-knowledge .slick-prev::before {
+  content: "\f060";
+}
+.slider-knowledge button.slick-arrow::before {
+  font-family: FontAwesome;
+  font-size: 15px;
+  color: #fff;
+}
+
+.slider-knowledge .slick-next::before {
+  content: "\f061";
+}
+.slider-knowledge .slick-prev {
+  left: -65px !important;
+}
+.slider-knowledge .slick-next {
+  right: -65px !important;
+}
+.slider-knowledge .slick-dots {
+  display: none !important;
+}
+.text-about2 h3{
+  font-size: 70px;
+}
+.text-about2 {
+  padding-top: 30px;
+}
+
+/* END ABOUT US PAGE CSS */
+
+
+
+/* START CONTACT CSS */
+
+section.contact {
+  padding: 220px 0;
+  width: 100%;
+  display: inline-block;
+}
+.contact_info h2 {
+  font-size: 42px;
+}
+.contact_about {
+  padding-top: 60px;
+}
+.contact_about ul {
+  padding: 0;
+  margin: 0;
+}
+.contact_about ul li {
+  list-style: none;
+}
+.contact_about ul li a {
+  color: #fff;
+  padding: 5px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.contact_about ul li a i {
+  padding-right: 5px;
+}
+
+
+
+.form .form-control {
+  background: #ffffff2e;
+  border: none;
+  border-radius: 10px;
+  padding: 18px 15px;
+} 
+.form .form-control {
+  background: #ffffff14;
+  border-radius: 2px;
+  padding: 18px 15px;
+  border: 1px solid #FFF;
+  margin: 15px 0;
+}
+.contact_cnt {
+  max-width: 60%;
+  margin: auto;
+}
+
+
+/* END CONTACT CSS */
+
+
+
+.footer-info{
+  padding: 0 50px;
+}
+#hiring-banner{
+  position: relative;
+}
+.hiring-main{
+  width: 100%;
+  padding: 200px 130px;
+  
+}
+.hiring-text ul li img {
+  width: 100%;
+}
+.hiring-text ul{
+  margin-top: 60px;
+}
+.hiring-text ul li {
+  max-width: 120px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.hiring-text h2 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 65px;
+  /* margin-bottom: 40px; */
+}
+.hiring-text {
+  margin-top: 70px;
+}
+
+.positions {
+  display: inline-block;
+  width: 100%;
+}
+
+.positions .position-heading {
+  display: inline-block;
+  width: 100%;
+  background: #fafafa;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.positions .position-heading ul{
+  margin: 0;
+}
+.positions .position-heading li {
+  color: #090130;
+  display: inline-block;
+  margin-right: 120px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.positions .position-heading li i.fa{
+  margin-right: 10px;
+}
+li.posi strong {
+  font-size: 20px;
+}
+.position-content {
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.position-img {
+  width: 100px;
+  display: inline-block;
+  height: 100px;
+}
+.position-img img{
+  width: 100%;
+  height: 100%;
+}
+.position-description {
+  display: inline-block;
+  width: calc(100% - 100px);
+  float: right;
+  padding: 10px 25px;
+}
+.position-description p{
+  max-width: 75%;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 22px;
+}
+.position-description .btn{
+  float: right;
+  display: inline-block;
+  background: white;
+  color: #090130;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.position-content:before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 100%;
+  border-radius: 1px;
+  position: absolute;
+  left: -20px;
+  background: #ddd;
+  top: 0;
+}
+
+.positions .position-heading li a{
+  color: #090130;
+  text-decoration: none;
+  font-weight: bold;
+}
