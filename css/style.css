@@ -1226,8 +1226,6 @@ ul.services_btn li a:hover, ul.services_btn li a.active {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 86%;
-  right: -150px;
   z-index: 99999;
 }
 .slider-app button.slick-arrow::before {
@@ -1248,10 +1246,10 @@ ul.services_btn li a:hover, ul.services_btn li a.active {
   content: "\f061";
 }
 .slider-app .slick-prev {
-  left: 0 !important;
+  left: -125px !important;
 }
 .slider-app .slick-next {
-  right: 40px !important;
+  right: -125px !important;
 }
 .slider.slider-app ul.slick-dots{
   display: none !important;
@@ -1418,6 +1416,44 @@ p.workflow_p2 {
 .technology_icons ul li img {
   max-width: 128px;
 }
+section#service1{
+    margin-top: 100px;
+}
+section#service2{
+    margin-top: 100px;
+}
+section#service3{
+    margin-top: 100px;
+}
+section#service4{
+    margin-top: 100px;
+}
+section#service5{
+    margin-top: 100px;
+}
+section#service6{
+    margin-top: 100px;
+}
+section#service7{
+    margin-top: 100px;
+}
+section#service8{
+    margin-top: 100px;
+}
+section#service9{
+    margin-top: 100px;
+}
+section#service10{
+    margin-top: 100px;
+}
+section#service11{
+    margin-top: 100px;
+}
+section#service12{
+    margin-top: 100px;
+}
+
+
 /* END SERVICES CSS */
 
 
