@@ -302,7 +302,7 @@ section#about {
 
 .abouts {
   border-radius: 10px;
-  background: #03A9F4;
+  background: #0e77ff;
   padding: 25px 70px;
   position: relative;
 }
@@ -355,7 +355,7 @@ section#about {
 
 .text-about .social-media li a{
   font-size: 25px;
-  color: #23527c;
+  color: #082a68;
 }
 .text-about .social-media li{
   list-style: none;
