@@ -97,8 +97,8 @@ section{
 .banner-about {
     text-align: left;
     color: white;
-    margin-top: 70px;
-    max-width: 400px;
+    margin-top: 40px;
+    max-width: 420px;
 }
 .banner-about h2{
     font-weight: bold;
@@ -323,7 +323,7 @@ section#about {
 .text-about {
   display: inline-block;
   width: auto;
-  margin-left: 120px;
+  margin-left: 540px;
 }
 .text-about h3 {
   font-size: 80px;
@@ -360,11 +360,14 @@ section#about {
 .text-about .social-media li{
   list-style: none;
 }
+.element::-webkit-scrollbar { width: 0 !important }
 .about-contents {
   display: inline-block;
   width: 100%;
   margin-top: 40px;
   margin-bottom: 10px;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 .about-contents h2 {
   font-size: 24px;
@@ -882,7 +885,7 @@ span.founder_name {
   display: none !important;
 }
 .text-about2 h3{
-  font-size: 70px;
+  font-size: 50px;
 }
 .text-about2 {
   padding-top: 30px;
@@ -1255,17 +1258,17 @@ ul.services_btn li a:hover, ul.services_btn li a.active {
   display: none !important;
 }
 .list_app_tittle h2 {
-  margin: 0;
+  margin-top: 0;
   font-size: 30px;
   padding-bottom: 25px;
   font-weight: bold;
 }
 ul.list_app_li li {
   list-style: none;
-  padding: 6px 0;
+  padding: 1px 0;
   position: relative;
   padding-left: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 ul.list_app_li li:after {
   content: "\f00c";
@@ -1520,15 +1523,15 @@ section#advertisers-banner {
   display: inline-block;
   width: calc(100% - 140px);
   float: right;
-  margin-top: 10px;
+  margin-top: 10px; 
   padding-left: 20px;
 }
 .details {
-  margin-top: 130px;
+  margin-top: 70px;
   display: inline-block;
   width: 100%;
   padding-bottom: 100px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
     padding-right: 40px;
 }
 .details .detail-text h4 {
@@ -1794,7 +1797,7 @@ section#architecture {
 }
 .publish_cnt {
   padding: 250px 0;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: auto;
   text-align: center;
 }
