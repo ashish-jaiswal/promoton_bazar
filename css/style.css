@@ -360,7 +360,7 @@ section#about {
 .text-about .social-media li{
   list-style: none;
 }
-.element::-webkit-scrollbar { width: 0 !important }
+/* .element::-webkit-scrollbar { width: 0 !important } */
 .about-contents {
   display: inline-block;
   width: 100%;
